@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   namespace: example06
-  generateName: disable-alerts-PreSync
+  generateName: disable-alerts-
   annotations:
     argocd.argoproj.io/sync-wave: "20"   
   labels:

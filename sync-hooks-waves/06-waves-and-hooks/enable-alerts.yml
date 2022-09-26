@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   namespace: example06
-  generateName: enable-alerts-PostSync
+  generateName: enable-alerts-
   annotations:
     argocd.argoproj.io/sync-wave: "30"   
   labels:
