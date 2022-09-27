@@ -30,4 +30,4 @@ spec:
     - /metadata
   - kind: Secret
     jsonPointers:
-    - /data/my-password          
+    - /data          
