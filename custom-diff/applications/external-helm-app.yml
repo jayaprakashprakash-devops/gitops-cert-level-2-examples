@@ -28,7 +28,6 @@ spec:
     namespace: example02
     jsonPointers:
     - /metadata
-  - group: secrets
-    kind: Secret
+  - kind: Secret
     jsonPointers:
     - /data/my-password          
