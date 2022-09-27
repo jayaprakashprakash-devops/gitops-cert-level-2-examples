@@ -24,8 +24,10 @@ spec:
   ignoreDifferences:
   - group: apps
     kind: Deployment
-    jsonPointers:
-    - /metadata/annotations/creation
+    name: simple-deployment
+    namespace: example02
+    jqPathExpressions:
+    - .metadata.annotations[] | select(.name == "creation")
   - group: secrets
     kind: Secret
     jsonPointers:
